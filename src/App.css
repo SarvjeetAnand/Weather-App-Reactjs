@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
 
 body{
-    background-color: aliceblue;
+    background-image: url(./components/img2.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
     font-family:'Poppins',sans-serif;
+    padding: 50px;
 }
+#root{
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .app{
     width: 400px;
@@ -15,7 +25,9 @@ body{
     color: #e5e5e5;
     border-radius: 10px;
     box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.2);
-    background: linear-gradient(108deg,#1e68a9,#7c43e0);
+    background: linear-gradient(108deg,#1ea95a,#e04399);
+    
+    opacity: 100;
 }
 .app h1{
     text-align: center;

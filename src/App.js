@@ -21,8 +21,11 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <h1>Weather App</h1>
+    <>
+
+   
+    <div className="app img">
+      <h1>Check Weather</h1>
       <div className="input-wrapper">
         <input type="text" value={city} onChange={(e) => setCity(e.target.value)} 
         placeholder='Enter City Name' />
@@ -65,6 +68,7 @@ function App() {
       {/* <p>{JSON.stringify(weather)}</p> */}
 
     </div>
+    </>
   );
 }
 
